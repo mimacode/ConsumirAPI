@@ -16,9 +16,25 @@
     text-align: center;
     user-select: none;
 }
+.containerDescription{
+    min-width: 370px;
+    max-width:490px;
+    height: auto;
+    border: 1px solid #ffffff27;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+    user-select: none;
+}
 img{
     width: 200px;
     height: 200px;
     object-fit: contain;
 }
 
+.description{
+    font-size: 16px;
+}
